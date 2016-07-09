@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+header {
+  text-align: center;
+  background: url("img/backpic.jpg") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  border: 3px solid black;
+}
+
+.nametag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.card, .About {
+  margin: 20px auto;
+  padding: 20px 40px;
+  max-width: 500px;
+  background: white;
+  border-bottom: 4px solid black;
+  border-radius: 6px;
+}
+.slideshow-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+
+img + img {
+  opacity: 0;
+}
